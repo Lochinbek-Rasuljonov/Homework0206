@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murojaat uchun - Avtosalon</title>
+</head>
+<body>
+    <h1>Murojaat uchun</h1>
+    <p>Biz bilan bog'lanish uchun quyidagi ma'lumotlardan foydalaning:</p>
+    <ul>
+        <li>Telefon: +998 (90) 123-45-67</li>
+        <li>Email: info@avtosalon.uz</li>
+        <li>Manzil: Toshkent sh., Mustaqillik ko'chasi, 10</li>
+    </ul>
+    <h2>Fikr-mulohazangizni qoldiring:</h2>
+    <form>
+        <label for="name">Ism:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Xabar:</label><br>
+        <textarea id="message" name="message" rows="5"></textarea><br><br>
+        <button type="submit">Yuborish</button>
+    </form>
+    <a href="{% url 'index' %}">Ortga</a>
+</body>
+</html>

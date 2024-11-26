@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sotuvchi bo'lish - Avtosalon</title>
+</head>
+<body>
+    <h1>Sotuvchi bo'lish</h1>
+    <p>Bizning sotuvchi bo'lish uchun quyidagi shaklni to'ldiring:</p>
+    <form>
+        <label for="fullname">To'liq ismingiz:</label><br>
+        <input type="text" id="fullname" name="fullname"><br><br>
+        <label for="experience">Tajriba:</label><br>
+        <input type="text" id="experience" name="experience"><br><br>
+        <button type="submit">Jo'natish</button>
+    </form>
+    <a href="{% url 'index' %}">Ortga</a>
+</body>
+</html>

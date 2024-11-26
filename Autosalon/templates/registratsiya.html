@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratsiya - Avtosalon</title>
+</head>
+<body>
+    <h1>Registratsiya</h1>
+    <p>Avtosalon saytida ro'yxatdan o'tish uchun ma'lumotlaringizni kiriting:</p>
+    <form>
+        <font color="green" size="4"><b>Ismingizni kiriting</b></font>
+        <br>
+        <br>
+        <input type="text" name="get_name" required="required" placeholder="Ism">
+        <br>
+        <br>
+        <font color="green" size="4"><b>Familiyangizni kiriting</b></font>
+        <br>
+        <br>
+        <input type="text" name="get_lastname" required="required" placeholder="Familiya">
+        <br>
+        <br>
+        <font color="green" size="4"><b>Tug'ilgan sanangizni belgilang</b></font>
+        <br>
+        <br>
+        <input type="date" name="get_date">
+        <br>
+        <br>
+        <font color="green" size="4"><b>Elektron pochta manzilingizni kiriting</b></font>
+        <br>
+        <br>
+        <input type="email" name="get_mail" required="required" placeholder="example@mail.com">
+        <br>
+        <br>
+        <font color="green" size="4"><b>Jins</b></font>
+        <br>
+        <br>
+        <label for="male">Erkak</label>
+        <input type="radio" name="jins" id="male">
+        <label for="female">Ayol</label>
+        <input type="radio" name="jins" id="female">
+        <br>
+        <br>
+        <font color="green" size="4"><b>Akkauntingiz uchun rasmingizni yuklang</b></font>
+        <br>
+        <br>
+        <input type="file" name="get_image">
+        <br>
+        <br>
+        <br>
+        <input type="checkbox" name="checkbox">Ma'lumotlarimdan foydalanishlariga roziman
+        <br>
+        <br>
+        <input type="submit" name="save" value="Saqlash">
+    </form>
+    <a href="{% url 'index' %}">Ortga</a>
+</body>
+</html>

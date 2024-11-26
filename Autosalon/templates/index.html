@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosh sahifa - Avtosalon</title>
+</head>
+<body>
+    <h1>Avtosalon saytiga xush kelibsiz!</h1>
+    <nav>
+        <a href="{% url 'index' %}">Bosh sahifa</a> |
+        <a href="{% url 'registratsiya' %}">Registratsiya</a> |
+        <a href="{% url 'sotib_olish' %}">Sotib olish</a> |
+        <a href="{% url 'sotish' %}">Sotish</a> |
+        <a href="{% url 'sotuvchi_bolish' %}">Sotuvchi bo'lish</a> |
+        <a href="{% url 'aktsiyalar' %}">Aktsiyalar</a> |
+        <a href="{% url 'tolov_turlari' %}">To'lov turlari</a> |
+        <a href="{% url 'filiallar' %}">Filiallar</a> |
+        <a href="{% url 'kompaniya_haqida' %}">Kompaniya haqida</a> |
+        <a href="{% url 'murojaat_uchun' %}">Murojaat uchun</a>
+    </nav>
+    <p>Eng so'nggi yangiliklar va chegirmalarni bizning sahifamizda toping!</p>
+</body>
+</html>

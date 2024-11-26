@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sotish - Avtosalon</title>
+</head>
+<body>
+    <h1>Avtomobilingizni soting</h1>
+    <p>Sizning avtomobilingizni bizga sotib olish uchun quyidagi shaklni to'ldiring:</p>
+    <form>
+        <label for="model">Model:</label><br>
+        <input type="text" id="model" name="model"><br><br>
+        <label for="price">Narxi:</label><br>
+        <input type="text" id="price" name="price"><br><br>
+        <button type="submit">Jo'natish</button>
+    </form>
+    <a href="{% url 'index' %}">Ortga</a>
+</body>
+</html>
